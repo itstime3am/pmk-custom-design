@@ -10,20 +10,18 @@ const LogoTextPanelStyle = Styled.div`
     display: flex;
     justify-content: center;
     background-color: #FFF;
-    border: 1px solid blue;
     padding: 10px 0px 10px 0px;
 `;
 
 const LogoTextPanelWrapper = Styled.div`
     width: 90%;
-    border: 1px solid green;
 `;
 
 const Arrow = Styled.div`
     display: ${({active})=> (active ? 'block' : 'none')}; 
     position: absolute;
     margin-top: 5px;
-    left: -13px;
+    left: -10px;
     border-style: solid;
     border-width: 20px 12px 20px 0px;
     border-color: transparent #FFF transparent transparent; 

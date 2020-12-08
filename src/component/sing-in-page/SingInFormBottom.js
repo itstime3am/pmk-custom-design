@@ -7,6 +7,7 @@ const BtnFacebook = Styled.div`
     width: 90%;
     height: 50px;
     margin: 20px 10px 0px 10px;
+    cursor: pointer;
     background-image: url(/pmk-custom-design/img/btn-facebook.png);
     background-size: 100% 100%;
 `;

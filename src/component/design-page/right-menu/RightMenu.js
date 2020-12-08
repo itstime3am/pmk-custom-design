@@ -9,7 +9,6 @@ import { Span, TextTitle } from '../../../dist/styled/Master'
 const RightMenuStyle = Styled.div`
     width: 27%;
     padding: 10px 10px 0px 10px;
-    border: 1px solid purple;
 `;
 
 export default function RightMenu() {
