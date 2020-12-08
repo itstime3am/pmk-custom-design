@@ -29,7 +29,7 @@ const BgTop = Styled.div`
     position: absolute; 
     top: 0px;
     z-index: 1;
-    background-image: url(/pmk-custom-design/pmk-custom-design/img/top-gradint.png);
+    background-image: url(/pmk-custom-design/img/top-gradint.png);
     background-size: 100% 100%;
 `;
 const BgArrow = Styled.div`
@@ -37,7 +37,7 @@ const BgArrow = Styled.div`
     height: 65px;
     position: absolute; 
     top: 0px;
-    background-image: url(/img/arrow-down.png);
+    background-image: url(/pmk-custom-design/img/arrow-down.png);
     background-size: 100% 100%;
     transition: opacity 0.2s ease-in-out; 
     opacity: ${({active}) => active ? '1': '0'}; 
