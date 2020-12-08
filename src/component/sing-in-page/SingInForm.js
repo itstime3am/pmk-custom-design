@@ -28,7 +28,7 @@ const SingInFormWrapper = Styled.div`
 const PmkLogo = Styled.div`
     width: 150px; 
     height: 70px; 
-    background-image: url(/img/pmk-logo.png);
+    background-image: url(/pmk-custom-design/img/pmk-logo.png);
     background-size: 100% 100%;
 `;
 const BtnClose = Styled.div`
@@ -64,7 +64,7 @@ export default function SingInForm() {
                         <input className="Sing-in-form__input-checkbox" type="checkbox" ></input>
                         <Span className="Sing-in-form__text-rmb-me" margin="0px 0px 0px 3px">จำฉันไว้</Span>  
                     </Flex> 
-                    <a className="Sing-in-form__link-fg-password" href="#">ลืมรหัสผ่าน?</a>             
+                    <a className="Sing-in-form__link-fg-password" href="/">ลืมรหัสผ่าน?</a>             
                </Flex>
             </SingInFormWrapper>
             <SingInFormBottom></SingInFormBottom>

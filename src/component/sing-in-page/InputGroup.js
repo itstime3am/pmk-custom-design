@@ -21,7 +21,7 @@ const InputItem = Styled.div`
 const IconInput = Styled.div`
 width: 30px; 
 margin: 0px 10px 0px 10px;
-background-image: ${({url}) => (url? 'url('+url+')' : '')};
+background-image: ${({url}) => (url? 'url(/pmk-custom-design'+url+')' : '')};
 background-size: 100% 100%;
 `;
 const InputUsername = Styled.input.attrs({type: 'text'})``

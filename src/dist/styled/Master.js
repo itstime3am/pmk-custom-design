@@ -23,7 +23,7 @@ const DivImg = Styled.div`
     width: ${({width})=> (width ? width : '100%')}; 
     height:  ${({height})=> (height ? height : '100%')}; 
     margin: ${({margin})=> (margin ? margin : '0')};
-    background-image: ${({url}) => (url? 'url('+url+')' : '')};
+    background-image: ${({url}) => (url? 'url(/pmk-custom-design'+url+')' : '')};
     background-size: 100% 100%;
 `;
 const Span = Styled.span`
@@ -34,7 +34,7 @@ const Span = Styled.span`
 const PmkLogoTopLeft = Styled.div`
     width: 150px; 
     height: 70px; 
-    background-image: url(/img/pmk-logo.png);
+    background-image: url(/pmk-custom-design/img/pmk-logo.png);
     background-size: 100% 100%;
     left: 1.2%;
     top: 1%;

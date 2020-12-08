@@ -1,8 +1,6 @@
 import React from 'react'
 import Styled from 'styled-components'
 
-import { DivImg, Flex } from '../../dist/styled/Master'
-
 const Svg = Styled.svg`
     position: absolute;
     & .cls1{

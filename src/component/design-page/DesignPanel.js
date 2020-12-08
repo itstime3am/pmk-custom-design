@@ -5,8 +5,6 @@ import LeftMenu from './LeftMenu'
 import Model from './Model'
 import RightMenu from './RightMenu'
 
-import { Flex } from '../../dist/styled/Master'
-
 const DesignPanelStyle = Styled.div`
     margin: 10px 0px 0px 0px;
     display: flex;

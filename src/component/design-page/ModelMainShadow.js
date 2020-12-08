@@ -5,7 +5,7 @@ const Img = Styled.div`
     width: ${({width})=> (width ? width : '100%')}; 
     height:  ${({height})=> (height ? height : '100%')}; 
     margin: ${({margin})=> (margin ? margin : '0')};
-    background-image: ${({url}) => (url? 'url('+url+')' : '')};
+    background-image: ${({url}) => (url? 'url(/pmk-custom-design'+url+')' : '')};
     background-size: 100% 100%;
     position: absolute;
     opacity: 0.3;

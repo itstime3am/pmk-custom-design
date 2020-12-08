@@ -21,7 +21,7 @@ const Img = Styled.div`
     width: ${({width})=> (width ? width : '90%')}; 
     height:  ${({height})=> (height ? height : '100%')}; 
     margin: ${({margin})=> (margin ? margin : '5px 0px 0px 0px')};
-    background-image: ${({url}) => (url? 'url('+url+')' : '')};
+    background-image: ${({url}) => (url? 'url(/pmk-custom-design'+url+')' : '')};
     background-size: 100% 100%;
 `
 

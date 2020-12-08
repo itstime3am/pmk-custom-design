@@ -7,14 +7,10 @@ import SingInPageView from './component/sing-in-page/SingInPageView'
 import PatternPageView from './component/pattern-page/PatternPageView'
 import DesignPageView from './component/design-page/DesignPageView'
 
-import Model from './component/design-page/Model'
-import Test from './component/Test'
-
 ReactDOM.render(
   <React.StrictMode>
-    {/* <Model></Model> */}
-    {/* <SingInPageView />  */}
-    {/* <PatternPageView />  */}
+    <SingInPageView /> 
+    <PatternPageView /> 
     <DesignPageView />
   </React.StrictMode>,
   document.getElementById('root')

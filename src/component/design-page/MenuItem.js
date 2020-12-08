@@ -50,7 +50,7 @@ const IconHeader = Styled.div`
     height:  ${({height})=> (height ? height : '80%')}; 
     margin: ${({margin})=> (margin ? margin : '0')};
     margin: 0px 10px 0px 10px;
-    background-image: ${({url}) => (url? 'url('+url+')' : '')};
+    background-image: ${({url}) => (url? 'url(/pmk-custom-design'+url+')' : '')};
     background-size: 100% 100%;
 `
 const Arrow = Styled.div`
