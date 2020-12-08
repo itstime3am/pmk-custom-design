@@ -6,7 +6,7 @@ import ModelOtherItem from './ModelOtherItem'
 const ModelOtherGroupStyle = Styled.div`
     display: flex;
     justify-content: center;
-    margin: 10px 0px 5px 0px;
+    margin: 0px 0px 5px 0px;
     & > *:not(first-child){
         margin: 0px 0px 0px 10px
     }

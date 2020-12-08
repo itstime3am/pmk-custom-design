@@ -11,7 +11,7 @@ body {
   padding: 0;
   letter-spacing: 0.01em;
 }
-button, input { font-family: "Ozone", sans-serif !important;  }
+button, input, select { font-family: "Ozone", sans-serif !important;  }
 a { color: #EC1C29; text-decoration: none; font-size: 18px; }
 a:hover { text-decoration: underline; }
 input[type=text] , input[type=password] {
@@ -23,16 +23,19 @@ input[type=text] , input[type=password] {
 }
 
 /*  */
-.right-menu{
+.right-u{
   width: 27%;
   padding: 0px 10px 0px 10px;
   height: 200px;
-  background-color: rgb(180, 180, 180);
+  background-color: rgb(192, 59, 59);
   /* transform: scale(); */
   /* border: 1px solid transparent; */
+  transform: translate(-50%, -50%);
   position: relative;
   position: absolute;
   flex-direction: column;
+  position: absolute;
+  position: relative;
 }
 /*  */
 

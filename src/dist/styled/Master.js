@@ -1,6 +1,7 @@
 import Styled from 'styled-components'
 
 const PageView = Styled.div`
+    position: relative;
     background: linear-gradient(-160deg, rgba(255, 255, 255, 0.1).5%, rgba(89,98,105,0.4) 100%); 
     width: 100%; 
     height: auto; 
@@ -32,14 +33,12 @@ const Span = Styled.span`
     z-index: ${({zIndex})=> (zIndex ? zIndex : '0')};
 `;
 const PmkLogoTopLeft = Styled.div`
-    width: 150px; 
-    height: 70px; 
+    width: 7%; 
+    height: 45px; 
     background-image: url(/pmk-custom-design/img/pmk-logo.png);
     background-size: 100% 100%;
     left: 1.2%;
     top: 1%;
-    width: 7%; 
-    height: 35px; 
     position: absolute;
     margin: 10px 0px 0px 0px;
 `;
@@ -55,10 +54,10 @@ const Button = Styled.div`
     height:  ${({height})=> (height ? height : '')}; 
     font-size: 32px;
     color: ${({color})=> (color ? color : '#FFF')}; ;
-    ${({bgColor})=> (bgColor ? bgColor : 'background-color: #EC1C29')}; 
+    background-color:  ${({bgColor})=> (bgColor ? bgColor : '#EC1C29')}; 
+    border:  ${({border})=> (border ? '1px solid '+border : 'none')}; 
     text-align: center;
     cursor: pointer;
-    border: none; 
     outline: none;  
     padding: 5px; 
     border-radius: 3px; 

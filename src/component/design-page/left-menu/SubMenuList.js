@@ -18,6 +18,9 @@ export default function SubMenuList() {
     return (
         <SubMenuListGridGroup className="sub-menu-list">
             <SubMenuItem></SubMenuItem>
+            <SubMenuItem></SubMenuItem>
+            <SubMenuItem></SubMenuItem>
+            <SubMenuItem></SubMenuItem>
         </SubMenuListGridGroup>
     )
 }

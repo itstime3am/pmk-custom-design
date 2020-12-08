@@ -31,30 +31,12 @@ const PmkLogo = Styled.div`
     background-image: url(/pmk-custom-design/img/pmk-logo.png);
     background-size: 100% 100%;
 `;
-const BtnClose = Styled.div`
-    width: 30px;
-    background-color: #EC1C29;
-    color: #FFF;
-    position: absolute;
-    display: ${({display}) => (display? display : 'block')};
-    top: 0;
-    right: 0;
-    border-top-right-radius: 15px;
-    cursor: pointer;
-    z-index: 1;
-    text-align: center;
-    padding: 3px 0px 3px 0px;
 
-    &:hover {
-        filter: brightness(92%);
-    }
-`;
 
 
 export default function SingInForm() {
     return (
         <SingInFormStyled className="Sing-in-form">
-            <BtnClose className="Sing-in-form__btn-close"  display="none">x</BtnClose>
             <SingInFormWrapper className="Sing-in-form__wrapper">
                <Flex><PmkLogo className="Sing-in-form__pmk-logo"></PmkLogo></Flex>
                <InputGroup></InputGroup>

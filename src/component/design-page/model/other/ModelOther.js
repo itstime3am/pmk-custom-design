@@ -3,9 +3,10 @@ import Styled from 'styled-components'
 
 import ModelOtherGroup from './ModelOtherGroup'
 
-import {Span} from '../../dist/styled/Master'
+import {Span} from '../../../../dist/styled/Master'
 
 const ModelOtherStyle = Styled.div`
+    margin: 15px 0px 5px 0px;
     display: flex;
     flex-direction: column;
     align-items: center

@@ -3,10 +3,9 @@ import Styled from 'styled-components'
 
 import ColorGroup from './ColorGroup'
 
-import { Span } from '../../dist/styled/Master'
+import { Span } from '../../../../dist/styled/Master'
 
 const ColorPickPanelStyle = Styled.div`
-    display: ${({active})=> (active ? 'block' : 'none')} !important;
     width: 100%;
     position: relative;
     background-color: #FFF;

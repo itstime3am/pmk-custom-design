@@ -3,15 +3,12 @@ import ReactDOM from 'react-dom';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import SingInPageView from './component/sing-in-page/SingInPageView'
-import PatternPageView from './component/pattern-page/PatternPageView'
-import DesignPageView from './component/design-page/DesignPageView'
+import App from './App'
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <SingInPageView /> 
-    <PatternPageView /> 
-    <DesignPageView />
+    <App></App>
   </React.StrictMode>,
   document.getElementById('root')
 );

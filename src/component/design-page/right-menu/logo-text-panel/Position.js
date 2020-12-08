@@ -1,20 +1,23 @@
 import React from 'react'
 import Style from 'styled-components'
 
-import { Span } from '../../dist/styled/Master'
+import PositionGroup from './PositionGroup'
+
+import { Span } from '../../../../dist/styled/Master'
 
 const LogoTextPositionStyle = Style.div`
-    width: 90%;
+    width: 100%;
 `
 
 const Select = Style.select`
     width: 100px;
-    padding: 5px 5px 5px 5px;
+    font-size: 20px;
+    padding: 2px;
 `
 
 export default function LogoTextPosition() {
     return (
-        <LogoTextPositionStyle>
+        <LogoTextPositionStyle className="logo-text-position">
             <Span fontSize="28px">ตำแหน่ง</Span>
             <div className="logo-text-position__selector">
                 <Select>
@@ -24,6 +27,7 @@ export default function LogoTextPosition() {
                     <option>ซ้าย</option>
                 </Select>
             </div>
+            <PositionGroup></PositionGroup>
         </LogoTextPositionStyle>
     )
 }

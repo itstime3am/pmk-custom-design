@@ -1,10 +1,10 @@
 import React from 'react'
 import Styled from 'styled-components'
 
-import ColorPickPanel from './ColorPickPanel'
-import LogoTextPanel from './LogoTextPanel'
+import ColorPickPanel from './color-picker/ColorPickPanel'
+import LogoTextPanel from './logo-text-panel/LogoTextPanel'
 
-import { Span, TextTitle } from '../../dist/styled/Master'
+import { Span, TextTitle } from '../../../dist/styled/Master'
 
 const RightMenuStyle = Styled.div`
     width: 27%;

@@ -4,10 +4,9 @@ import Styled from 'styled-components'
 import ModelMainGroup from './ModelMainGroup'
 
 import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
-import { Flex } from '../../dist/styled/Master'
+import { Flex } from '../../../../dist/styled/Master'
 
 const ModelMainWrapper = Styled.div`
-    border: 1px solid green;
     margin: 25px 0px 0px 0px;
     width: 400px;
     height: 400px;

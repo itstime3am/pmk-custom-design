@@ -1,7 +1,7 @@
 import React from 'react'
 import Styled from 'styled-components'
 
-const Img = Styled.div`
+const ModelMainShadowStyle = Styled.div`
     width: ${({width})=> (width ? width : '100%')}; 
     height:  ${({height})=> (height ? height : '100%')}; 
     margin: ${({margin})=> (margin ? margin : '0')};
@@ -14,6 +14,6 @@ const Img = Styled.div`
 
 export default function ModelMainShadow() {
     return (
-        <Img url="/img/font_body_1.png"></Img>
+        <ModelMainShadowStyle className="model-main-shadow__1" url="/img/font_body_1.png"></ModelMainShadowStyle>
     )
 }

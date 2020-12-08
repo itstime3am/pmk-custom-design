@@ -1,7 +1,7 @@
 import React from 'react'
 import Styled from 'styled-components'
 
-import UploadImgGroup from './UploadImgGroup'
+import LogoTextUpload from './LogoTextUpload'
 
 const LogoTextPanelStyle = Styled.div`
     // display: ${({active})=> (active ? 'block' : 'none')} !important;
@@ -11,6 +11,7 @@ const LogoTextPanelStyle = Styled.div`
     justify-content: center;
     background-color: #FFF;
     border: 1px solid blue;
+    padding: 10px 0px 10px 0px;
 `;
 
 const LogoTextPanelWrapper = Styled.div`
@@ -33,7 +34,7 @@ export default function LogoTextPanel() {
         <LogoTextPanelStyle className="logo-text-panel">
             <Arrow active></Arrow>
             <LogoTextPanelWrapper className="logo-text-panel__wrapper">
-                <UploadImgGroup></UploadImgGroup>
+                <LogoTextUpload></LogoTextUpload>
             </LogoTextPanelWrapper>
         </LogoTextPanelStyle>
     )
