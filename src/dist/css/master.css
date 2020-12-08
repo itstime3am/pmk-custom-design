@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Ozone";
+  src: url("../font/DB\ Ozone\ X.ttf") format("truetype");
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Ozone", sans-serif !important;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.01em;
+}
+button, input { font-family: "Ozone", sans-serif !important;  }
+a { color: #EC1C29; text-decoration: none; font-size: 18px; }
+a:hover { text-decoration: underline; }
+input[type=text] , input[type=password] {
+  border: none; 
+  outline: none; 
+  font-size: 22px; 
+  margin-top: 5px; 
+  width: 100%; 
+}
+
+/*  */
+.right-menu{
+  width: 27%;
+  padding: 0px 10px 0px 10px;
+  height: 200px;
+  background-color: rgb(180, 180, 180);
+  /* transform: scale(); */
+  /* border: 1px solid transparent; */
+  position: relative;
+  position: absolute;
+  flex-direction: column;
+}
+/*  */
+
+
+
